@@ -1,0 +1,253 @@
+:root{
+    --logo-style: "Raleway", sans-serif;
+    --Primary-Brand-color: #4D5AE5;
+    --state-color: #404BBF;
+    --Dark-color: #2E2F42;
+    --Success-color: #31D0AA;
+    --Txt-color: #434455;
+    --Subtle-Txt-color: #8E8F99;
+    --Accent-color: #E7E9FC;
+    --Light-color: #F4F4FD;
+    --Modal-overlay-color: #2E2F42;
+    --Hero-background-color: #2E2F42;
+    --White-background-color: #FFFFFF;
+    --Modal-background-color: #FCFCFC;
+
+}
+
+body{
+font-family: 'Roboto', sans-serif;
+color: var(--Txt-color);
+background-color: var(--White-background-color);
+}
+
+.link{
+text-decoration: none;
+}
+
+.list {
+list-style: none;
+}
+
+
+/** ---------HEADER-------- */
+
+
+.header-logo {
+    font-family: var(--logo-style);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--Primary-Brand-color);
+    text-transform: uppercase
+}
+
+.header-logo-web {
+    color: var(--Dark-color);
+}
+
+.header-contacts {
+    font-style: normal
+}
+
+.header-menu {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--Dark-color);
+}
+
+.header-menu-link {
+color: var(--Dark-color);
+}
+
+.header-menu-link:is(:hover, :focus) {
+color: var(--state-color);
+}
+
+.header-contacts-item {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--Txt-color);
+}
+
+.header-contacts-link {
+    color: var(--Txt-color);
+    }
+
+.header-contacts-link:is(:hover, :focus) {
+    color: var(--state-color);
+}
+
+
+/** ---------------HERO------------ */
+
+
+.hero {
+background-color: var(--Dark-color);
+}
+
+.hero-title {
+font-family: 'Roboto';
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+color: var(--White-background-color);
+background: var(--Dark-color);
+text-align: center
+}
+
+.hero-btn {
+    font-family: inherit; 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--White-background-color);
+    cursor: pointer;
+    background-color: var(--Primary-Brand-color);
+}
+
+.hero-btn:is(:hover, :focus) {
+    background-color: var(--state-color);
+}
+
+
+/** ----------------BUSINESS------------- */
+
+
+.business-info-strategy {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--Dark-color);
+}
+
+.business-info-idea{
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--Txt-color);
+}
+
+
+/** --------------SERVICE------------- */
+
+
+.service-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--Dark-color);
+    text-align: center
+}
+
+.service-title {
+text-transform: capitalize
+}
+
+
+/** ---------------------TEAM------------------- */
+
+
+.team{
+background-color: var(--Light-color);
+}
+
+.team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--Dark-color);
+    text-align: center
+}
+
+.team-title {
+text-transform: capitalize
+}
+
+.team-list-member {
+background-color: var(--White-background-color);
+}
+
+.team-list-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--Dark-color);
+}
+
+.team-list-job {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--Txt-color);
+}
+
+
+/** ---------------------FOOTER--------------- */
+
+
+.footer{
+background-color: var(--Dark-color);
+}
+
+.footer-logo {
+    font-family: var(--logo-style);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--Primary-Brand-color);
+    text-transform: uppercase
+}
+
+.footer-logo-web {
+    color: var(--Light-color);
+}
+
+.footer-text {
+font-size: 16px;
+line-height: 1.5; 
+letter-spacing: 0.02em;
+color: var(--Light-color);
+}
+
+
+/** ---------------------------PORTFOLIO--------------------*/
+
+
+.aplication-btn-all {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color:  var(--Primary-Brand-color);
+    cursor: pointer;
+    background-color: var(--Light-color);
+}
+
+.aplication-btn-all:is(:hover, :focus) {
+color: var(--White-background-color);
+background-color: var(--state-color);
+}
+
+.aplication-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--Dark-color);
+}
+.aplication-post {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--Txt-color);
+}
