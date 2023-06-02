@@ -46,15 +46,29 @@ text-decoration: none;
 list-style: none;
 }
 
-.conteiner {
+.container {
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0, auto;
+    margin: 0 auto;
+    outline: 2px solid red;
 }
 
 /** ---------HEADER-------- */
 
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.header-container {
+    display: flex;
+}
+
+.header-navigation {
+    display: flex;
+    margin-right: auto;
+}
 
 .header-logo {
     font-family: var(--logo-style);
@@ -63,6 +77,7 @@ list-style: none;
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--Primary-Brand-color);
+    margin-right: 76px;
     text-transform: uppercase
 }
 
@@ -80,6 +95,8 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--Dark-color);
+display: flex;
+gap: 40px;
 }
 
 .header-menu-link {
@@ -95,6 +112,8 @@ color: var(--state-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--Txt-color);
+    display: flex;
+    gap: 40px;
 }
 
 .header-contacts-link {
@@ -110,7 +129,11 @@ color: var(--state-color);
 
 
 .hero {
-background-color: var(--Dark-color);
+    background-color: var(--Dark-color);
+}
+
+.hero-container {
+    padding: 188px 472px;
 }
 
 .hero-title {
@@ -120,6 +143,8 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 color: var(--White-background-color);
 background: var(--Dark-color);
+margin-bottom: 48px;
+min-width: 496px;
 text-align: center
 }
 
@@ -131,7 +156,13 @@ text-align: center
     letter-spacing: 0.04em;
     color: var(--White-background-color);
     cursor: pointer;
+    display: flex;
+    border-radius: 4px;
+    padding: 16px 32px;
+    gap: 10px;
     background-color: var(--Primary-Brand-color);
+    margin-left: auto;
+
 }
 
 .hero-btn:is(:hover, :focus) {
@@ -142,11 +173,23 @@ text-align: center
 /** ----------------BUSINESS------------- */
 
 
+.business {
+padding-top: 120px;
+padding-bottom: 120px;
+}
+
+.business-info{
+    display: flex;
+
+    gap: 24px;
+}
+
 .business-info-strategy {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
     color: var(--Dark-color);
 }
 
@@ -155,22 +198,34 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--Txt-color);
+max-width: 264px;
 }
 
 
 /** --------------SERVICE------------- */
 
+.service{
+padding-bottom: 120px;
+}
 
 .service-title {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: var(--Dark-color);
+    margin-bottom: 72px;
     text-align: center
+    
+    
 }
 
 .service-title {
 text-transform: capitalize
+}
+
+.service-list{
+    display: flex;
+    gap: 24px;
 }
 
 
@@ -181,10 +236,15 @@ text-transform: capitalize
 background-color: var(--Light-color);
 }
 
+.team-container{
+
+}
+
 .team-title {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    padding-top: 120px;
     color: var(--Dark-color);
     text-align: center
 }
@@ -193,8 +253,13 @@ background-color: var(--Light-color);
 text-transform: capitalize
 }
 
+.team-list{
+    display: flex;
+    gap: 24px;
+}
+
 .team-list-member {
-background-color: var(--White-background-color);
+    background-color: var(--White-background-color);
 }
 
 .team-list-name {
