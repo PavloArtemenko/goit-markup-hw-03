@@ -368,6 +368,10 @@ margin-top: 16px;
     background-color: var(--Light-color);
 }
 
+.aplication-click {
+    padding: 96px 0 120px 0;
+}
+
 .aplication-btn-all:is(:hover, :focus) {
 color: var(--White-background-color);
 background-color: var(--state-color);
