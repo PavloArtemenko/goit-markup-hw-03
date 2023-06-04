@@ -276,8 +276,12 @@ text-transform: capitalize
 }
 
 .photo-list {
-    width:calc((100% - 72px) / 4);
+    width: calc((100% - 3 * 24px) / 4)
     border-radius: 0px 0px 4px 4px;
+}
+
+.team-info {
+    padding: 32px 16px;
 }
 
 .team-title {
@@ -309,7 +313,8 @@ text-transform: capitalize
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--Dark-color);
-    margin-bottom: 72px 0;
+    margin-bottom: 8px;
+    text-align: center;
 }
 
 .team-list-job {
@@ -317,6 +322,7 @@ text-transform: capitalize
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--Txt-color);
+    text-align: center;
 }
 
 
