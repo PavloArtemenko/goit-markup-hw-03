@@ -12,6 +12,7 @@
     --Hero-background-color: #2E2F42;
     --White-background-color: #FFFFFF;
     --Modal-background-color: #FCFCFC;
+    --bottom-color: 1px solid #e7e9fc;
 
 }
 
@@ -376,6 +377,8 @@ margin-top: 16px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    padding: 12px 24px;
+    border:var(--bottom-color);
     color:  var(--Primary-Brand-color);
     cursor: pointer;
     background-color: var(--Light-color);
