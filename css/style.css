@@ -58,6 +58,19 @@ list-style: none;
     outline: 2px solid red;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 
 /** ---------HEADER-------- */
 
@@ -96,7 +109,6 @@ list-style: none;
 .header-contacts {
     align-items: center;
     font-style: normal;
-    padding-top: 24px;
 }
 
 .header-menu {
@@ -107,7 +119,6 @@ letter-spacing: 0.02em;
 color: var(--Dark-color);
 display: flex;
 gap: 40px;
-padding: 24px 0;
 }
 
 .header-menu-item{
@@ -201,22 +212,10 @@ padding-top: 120px;
 padding-bottom: 120px;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
+
 
 .business-info{
     display: flex;
-
     gap: 24px;
 }
 
