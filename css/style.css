@@ -367,7 +367,9 @@ margin-top: 16px;
     cursor: pointer;
     background-color: var(--Light-color);
 }
-
+.aplication-container {
+    padding: 96px 0 120px 0;
+}
 
 .aplication-btn-all:is(:hover, :focus) {
 color: var(--White-background-color);
