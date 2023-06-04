@@ -253,6 +253,7 @@ background-color: var(--Light-color);
 }
 
 .team-container{
+    padding: 120px 0;
 
 }
 
@@ -262,7 +263,7 @@ background-color: var(--Light-color);
     letter-spacing: 0.02em;
     padding-top: 120px;
     color: var(--Dark-color);
-    text-align: center
+    text-align: center;
 }
 
 .team-title {
@@ -276,7 +277,7 @@ text-transform: capitalize
 
 .team-list-member {
     background-color: var(--White-background-color);
-    display: block;
+
 }
 
 .team-list-name {
@@ -285,6 +286,7 @@ text-transform: capitalize
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--Dark-color);
+    margin-bottom: 72px 0;
 }
 
 .team-list-job {
@@ -300,6 +302,12 @@ text-transform: capitalize
 
 .footer{
 background-color: var(--Dark-color);
+}
+
+.container-footer{
+    padding: 100px 1020px 100px 156px;
+
+    max-width: 264px;
 }
 
 .footer-logo {
@@ -321,6 +329,7 @@ font-size: 16px;
 line-height: 1.5; 
 letter-spacing: 0.02em;
 color: var(--Light-color);
+
 }
 
 
@@ -350,9 +359,16 @@ background-color: var(--state-color);
     letter-spacing: 0.02em;
     color: var(--Dark-color);
 }
+
 .aplication-post {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--Txt-color);
+}
+
+.aplication-info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
 }
