@@ -278,7 +278,6 @@ text-transform: capitalize
 
 .photo-list {
     width: calc((100% - 3 * 24px) / 4)
-    border-radius: 0 0 4px 4px;
 }
 
 .team-info {
@@ -305,6 +304,7 @@ text-transform: capitalize
 
 .team-list-member {
     background-color: var(--White-background-color);
+    border-radius: 0 0 4px 4px;
 
 }
 
