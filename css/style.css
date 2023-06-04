@@ -275,6 +275,10 @@ text-transform: capitalize
     background-color: var(--Light-color);
 }
 
+.photo-list {
+    width:calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
 
 .team-title {
     font-size: 36px;
@@ -286,8 +290,7 @@ text-transform: capitalize
 }
 
 .team-title {
-    margin-bottom: 72px;
-    text-transform: capitalize
+text-transform: capitalize
 }
 
 .team-list{
@@ -296,7 +299,6 @@ text-transform: capitalize
 }
 
 .team-list-member {
-    border-radius: 0px 0px 4px 4px;
     background-color: var(--White-background-color);
 
 }
