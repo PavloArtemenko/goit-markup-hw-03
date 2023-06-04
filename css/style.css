@@ -53,9 +53,6 @@ list-style: none;
     margin: 0 auto;
 }
 
-.img{
-    display: block;
-}
 
 /** ---------HEADER-------- */
 
@@ -91,7 +88,6 @@ list-style: none;
     color: var(--Dark-color);
 }
 
-
 .header-contacts {
     font-style: normal
 }
@@ -103,7 +99,9 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--Dark-color);
 display: flex;
+padding: 24px 0;
 gap: 40px;
+padding: 24px 0;
 }
 
 .header-menu-link {
@@ -120,6 +118,8 @@ color: var(--state-color);
     letter-spacing: 0.02em;
     color: var(--Txt-color);
     display: flex;
+    padding: 24px 0;
+    margin-left: 0;
     gap: 40px;
 }
 
@@ -150,7 +150,9 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 color: var(--White-background-color);
 background: var(--Dark-color);
+display: flex;
 max-width: 496px;
+padding-bottom: 48px;
 text-align: center;
 }
 
@@ -234,6 +236,9 @@ text-transform: capitalize
     gap: 24px;
 }
 
+.service-list-info{
+    display: block;
+}
 
 /** ---------------------TEAM------------------- */
 
@@ -266,6 +271,7 @@ text-transform: capitalize
 
 .team-list-member {
     background-color: var(--White-background-color);
+    display: block;
 }
 
 .team-list-name {
