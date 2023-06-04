@@ -51,6 +51,7 @@ list-style: none;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+    outline: 2px solid red;
 }
 
 
@@ -89,7 +90,9 @@ list-style: none;
 }
 
 .header-contacts {
-    font-style: normal
+    align-items: center;
+    font-style: normal;
+    padding-top: 24px;
 }
 
 .header-menu {
@@ -144,7 +147,6 @@ color: var(--state-color);
 }
 
 .hero-container {
-    padding: 188px 0;
 }
 
 .hero-title {
@@ -156,7 +158,9 @@ color: var(--White-background-color);
 background: var(--Dark-color);
 display: flex;
 max-width: 496px;
-padding-bottom: 48px;
+margin-left: auto;
+margin-right: auto;
+padding: 0 0 48px 0;
 text-align: center;
 }
 
@@ -171,6 +175,7 @@ text-align: center;
     display: block;
     min-width: 169px;
     border: none;
+    margin: 0 auto;
     height: 56px;
     border-radius: 4px;
     padding: 16px 32px;
@@ -189,6 +194,19 @@ text-align: center;
 .business {
 padding-top: 120px;
 padding-bottom: 120px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .business-info{
@@ -302,12 +320,13 @@ text-transform: capitalize
 
 .footer{
 background-color: var(--Dark-color);
+padding-top: 100px;
+padding-bottom: 100px;
 }
 
 .container-footer{
-    padding: 100px 1020px 100px 156px;
-
-    max-width: 264px;
+    display: block
+    
 }
 
 .footer-logo {
@@ -329,6 +348,8 @@ font-size: 16px;
 line-height: 1.5; 
 letter-spacing: 0.02em;
 color: var(--Light-color);
+max-width: 264px;
+margin-top: 16px;
 
 }
 
