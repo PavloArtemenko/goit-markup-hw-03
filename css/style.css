@@ -86,7 +86,6 @@ list-style: none;
     letter-spacing: 0.03em;
     color: var(--Primary-Brand-color);
     margin-right: 76px;
-    padding: 24px 0;
     text-transform: uppercase
 }
 
@@ -117,6 +116,7 @@ padding: 24px 0;
 
 .header-menu-link {
 color: var(--Dark-color);
+padding: 24px 0 24px 0;
 }
 
 .header-menu-link:is(:hover, :focus) {
