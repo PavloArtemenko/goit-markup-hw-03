@@ -271,13 +271,10 @@ text-transform: capitalize
 
 
 .team{
-background-color: var(--Light-color);
-}
-
-.team-container{
     padding: 120px 0;
-
+    background-color: var(--Light-color);
 }
+
 
 .team-title {
     font-size: 36px;
