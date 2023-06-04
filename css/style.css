@@ -409,3 +409,10 @@ background-color: var(--state-color);
     flex-wrap: wrap;
     gap: 48px 24px;
 }
+
+.aplication-click {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
