@@ -76,8 +76,7 @@ list-style: none;
 
 
 .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
+
     border-bottom: 1px solid #e7e9fc
 }
 
@@ -176,7 +175,7 @@ display: flex;
 max-width: 496px;
 margin-left: auto;
 margin-right: auto;
-padding: 0 0 48px 0;
+margin-bottom: 48px;
 text-align: center;
 }
 
@@ -275,10 +274,6 @@ text-transform: capitalize
     background-color: var(--Light-color);
 }
 
-.photo-list {
-    width: calc((100% - 3 * 24px) / 4)
-}
-
 .team-info {
     padding: 32px 16px;
 }
@@ -303,6 +298,7 @@ text-transform: capitalize
 
 .team-list-member {
     background-color: var(--White-background-color);
+    width: calc((100% - 3 * 24px) / 4)
     border-radius: 0 0 4px 4px;
 
 }
@@ -362,8 +358,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--Light-color);
 max-width: 264px;
-margin-top: 16px;
-
 }
 
 
